@@ -1,11 +1,10 @@
 '''corrected 8.2'''
 word = 'banana'
 print(word.count('a'))
-count = 0 
 for letter in word:
     if letter == 'a':
-        count == count + 1
-print(count)
+        count = count + 1
+
 
 '''8.3'''
 def is_palindrome(word):
